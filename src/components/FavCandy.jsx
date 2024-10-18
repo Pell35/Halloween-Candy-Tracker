@@ -12,7 +12,7 @@ const FavCandyInput = () => {
       <input
         id="candy-input"
         type="text"
-        value={value}
+        value={favoriteCandy}
         onChange={handleChange}
         placeholder="Enter your favorite Halloween candy?"
       />
@@ -21,4 +21,4 @@ const FavCandyInput = () => {
   );
 };
 
-export default InputComponent;
+export default FavCandyInput;
