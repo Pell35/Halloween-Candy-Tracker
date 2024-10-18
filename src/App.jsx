@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import HappyHalloween from "./components/HappyHalloween"
+import FavCandyInput from "./components/FavCandy"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +13,11 @@ function App() {
       <div>
       <HappyHalloween/>
       </div>
-
+      <div>
+      <FavCandyInput/>
+      </div>
     </>
+    
   )
 }
 
