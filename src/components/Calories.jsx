@@ -21,4 +21,4 @@ const CalorieTracker = () => {
   );
 };
 
-export default FavCandyInput;
+export default CalorieTracker;
