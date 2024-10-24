@@ -1,24 +1,24 @@
 import React, { useState } from 'react';
 
-const CalorieTracker = () => {
-  const [calories, setCalories] = useState('');
+const ActivityTracker = () => {
+  const [activities, setActivities] = useState('');
 
   const handleChange = (e) => {
-    setCalories(e.target.value);
+    setActivities(e.target.value);
   };
 
   return (
     <div>
       <input
-        id="calorie-input"
-        type="number"
-        value={calories}
+        id="activity-input"
+        type="text"
+        value={activities}
         onChange={handleChange}
-        placeholder="Enter the calories for the candy bar you want to eat"
+        placeholder="Enter the activities you want to do this fall"
       />
-      <p>You have had {calories} calories today</p>
+      <p>These are the activities you want to do this Fall: {activities}.</p>
     </div>
   );
 };
 
-export default CalorieTracker;
+export default ActivityTracker;
